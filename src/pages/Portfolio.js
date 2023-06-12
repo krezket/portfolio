@@ -6,11 +6,21 @@ import ccw from '../assets/ccw.png'
 import fotwq from '../assets/fotwq.png'
 import pg from '../assets/pg.png'
 import pws from '../assets/pws.png'
+import pp from '../assets/pp.png'
 
 function Portfolio() {
   return (
     <div id="main">
         <article>
+        <div class="card">
+                <h3>Project Portal</h3>
+                <label>
+                    <a href="https://proj-portal.netlify.app/" target="_blank" rel="noreferrer"><img id="img" src={pp} alt="Screenshot of Project Portal website"></img></a>
+                </label>
+                <p>
+                    Screenshot of the deployed Project Portal app
+                </p>
+            </div>
             <div class="card">
                 <h3>Artist Recommendations</h3>
                 <label>
