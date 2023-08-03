@@ -4,32 +4,32 @@ import pdf from '../assets/ag-resume.pdf'
 
 function Resume() {
   return (
-    <div>        
+    <div>
       <div id="resume">
-    <ol>
-    <h2>Download Resume <a href={pdf} download="ag-resume.pdf">Here</a></h2>
-    <h1>Skills</h1>
-        <li>
+        <ol>
+          <h2>Download Resume <a href={pdf} download="ag-resume.pdf">Here</a></h2>
+          <h1>Skills</h1>
+          <li>
             <h2>Front-End</h2>
             <span>
-                ReactJS, CSS, NPM 
+              ReactJS, CSS, NPM
             </span>
-        </li>
-        <li>
+          </li>
+          <li>
             <h2>Back-End</h2>
             <span>
-                NodeJS, ExpressJS, MySQL, MongoDB
+              NodeJS, ExpressJS, MySQL, MongoDB
             </span>
-        </li>
-        <li>
+          </li>
+          <li>
             <h2>Languages</h2>
             <span>
-                JavaScript
+              JavaScript
             </span>
-        </li>
-    </ol>
-  </div>
-</div>
+          </li>
+        </ol>
+      </div>
+    </div>
   )
 }
 
